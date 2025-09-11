@@ -1,4 +1,4 @@
-# Lab13: Todo List with Mantine (Part 2)
+# Lab13 : Todo List with Mantine (Part 2)
 
 ### ป้อนข้อมูลนักศึกษา
 

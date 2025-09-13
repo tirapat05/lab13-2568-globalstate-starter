@@ -5,15 +5,20 @@ export const useTaskFormStore = create<TaskFormState>((set) => ({
   title: "",
   description: "",
   dueDate: "",
-  setTasks: (title) =>
+  assignees: [],
+  setAssignees:(assingnees) => set(() =>
+  ({
+    assignees:assingnees,
+  })),
+  setTitle: (title) =>
     set(() => ({
       title: title,
     })),
-  setdescription: (description) =>
+  setDescription: (description) =>
     set(() => ({
       description: description,
     })),
-  setdueDate: (dueDate) =>
+  setDueDate: (dueDate) =>
     set(() => ({
       dueDate: dueDate,
     })),
